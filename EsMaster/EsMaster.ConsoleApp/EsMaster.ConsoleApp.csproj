@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EsMaster.Core\EsMaster.Core.csproj" />
+    <ProjectReference Include="..\EsMaster.RepositoryADO\EsMaster.RepositoryADO.csproj" />
+    <ProjectReference Include="..\EsMaster.RepositoryMock\EsMaster.RepositoryMock.csproj" />
+  </ItemGroup>
+
+</Project>
