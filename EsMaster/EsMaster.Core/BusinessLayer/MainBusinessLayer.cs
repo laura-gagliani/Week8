@@ -24,9 +24,6 @@ namespace EsMaster.Core.BusinessLayer
 
 
 
-
-
-
         public Esito AggiungiCorso(Corso c)
         {
             //controllo: non devi far inserire corsi con lo stesso codice
