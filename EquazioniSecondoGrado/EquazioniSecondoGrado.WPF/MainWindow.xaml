@@ -1,0 +1,39 @@
+﻿<Window x:Class="EquazioniSecondoGrado.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EquazioniSecondoGrado.WPF"
+        mc:Ignorable="d"
+        Title="Equazioni di secondo grado" Height="218" Width="373">
+    <Window.Background>
+        <ImageBrush ImageSource="https://img.myloview.it/adesivi/math-educational-vector-seamless-background-with-handwritten-formulas-figures-calculations-chalk-on-blackboard-effect-700-210303281.jpg"/>
+    </Window.Background>
+    <Grid Opacity="0.92">
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*"></ColumnDefinition>
+            <ColumnDefinition Width="15*"></ColumnDefinition>
+            <ColumnDefinition Width="15*"></ColumnDefinition>
+            <ColumnDefinition Width="15*"></ColumnDefinition>
+            <ColumnDefinition Width="15*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="coeffA" HorizontalAlignment="Center" Grid.Row="1"  TextWrapping="Wrap" VerticalAlignment="Top" Width="48" Height="17" FontFamily="Consolas" FontSize="11" TextAlignment="Center" Margin="0,33,0,0"/>
+        <TextBox x:Name="coeffB" HorizontalAlignment="Center" Grid.Row="1"  TextWrapping="Wrap" VerticalAlignment="Top" Width="48" Height="17" FontFamily="Consolas" FontSize="11" TextAlignment="Center" Margin="0,33,0,0" Grid.Column="1"/>
+        <TextBox x:Name="coeffC" HorizontalAlignment="Center" Grid.Row="1"  TextWrapping="Wrap" VerticalAlignment="Top" Width="48" Height="17" FontFamily="Consolas" FontSize="11" TextAlignment="Center" Margin="0,33,0,0" Grid.Column="2"/>
+        <Button x:Name="btnCalcola" Content="CALCOLA" Grid.ColumnSpan="2" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Center" Height="30" Width="111" FontFamily="OCR A Extended" FontSize="18" Background="Black" UseLayoutRounding="False" Click="btnCalcola_Click" Foreground="White" BorderBrush="White" Margin="19,0,0,0"/>
+        <TextBox x:Name="textBoxEquazione" HorizontalAlignment="Left" Height="24" Margin="8,10,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="282" Grid.ColumnSpan="4" Grid.Column="1" FontFamily="Consolas" FontSize="16" TextAlignment="Center"/>
+        <TextBox x:Name="textBoxSoluzioni" HorizontalAlignment="Left" Height="24" Margin="8,10,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="282" Grid.ColumnSpan="4" Grid.Column="1" FontFamily="Consolas" FontSize="14" TextAlignment="Center"/>
+        <Label x:Name="lblEquazione" Content="Equazione"  HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Background="Black" Opacity="0.995" BorderBrush="White" Foreground="White" FontFamily="OCR A Extended" Height="22" Width="75"/>
+        <Label x:Name="lblSoluzioni" Content="Soluzioni"  HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Background="Black" Opacity="0.995" BorderBrush="White" Foreground="White" FontFamily="OCR A Extended" Height="22" Width="75"/>
+        <TextBox HorizontalAlignment="Center" Height="25" Margin="0,0,0,0" Grid.Row="1" Text="Inserisci a, b, c" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" Grid.ColumnSpan="3" FontFamily="OCR A Extended" FontSize="16" TextAlignment="Center" Foreground="White" BorderBrush="White" Background="Black"/>
+    </Grid>
+</Window>

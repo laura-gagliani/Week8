@@ -41,5 +41,10 @@
         <Button x:Name="btnSottr" Content="-" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="4" Background="#FFFBFBBF" Grid.Column="3" Click="btnSottr_Click"/>
         <Button x:Name="btnMolt" Content="*" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="3" Background="#FFFBFBBF" Grid.Column="3" Click="btnMolt_Click"/>
         <Button x:Name="btnDiv" Content="/" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="2" Background="#FFFBFBBF" Grid.Column="3" Click="btnDiv_Click"/>
+        <Menu x:Name="menu" Grid.ColumnSpan="4" VerticalAlignment="Top" Height="20">
+        <MenuItem x:Name="itemFile" Header="File">
+                <MenuItem x:Name="itemExit" Header="Exit" Click="itemExit_Click"></MenuItem>
+        </MenuItem>
+            </Menu>
     </Grid>
 </Window>

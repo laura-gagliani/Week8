@@ -143,5 +143,10 @@ namespace Calcolatrice.WPF
 
             }
         }
+
+        private void itemExit_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

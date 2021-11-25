@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquazioniSecondoGrado.Core"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquazioniSecondoGrado.Test", "EquazioniSecondoGrado.Test\EquazioniSecondoGrado.Test.csproj", "{301A2265-61FC-45D0-A579-5E73C529BACD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquazioniSecondoGrado.WinForm", "EquazioniSecondoGrado.WinForm\EquazioniSecondoGrado.WinForm.csproj", "{E5D02DF5-7FDA-43C2-B454-D4FA2AB03C71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquazioniSecondoGrado.WinForm", "EquazioniSecondoGrado.WinForm\EquazioniSecondoGrado.WinForm.csproj", "{E5D02DF5-7FDA-43C2-B454-D4FA2AB03C71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquazioniSecondoGrado.WPF", "EquazioniSecondoGrado.WPF\EquazioniSecondoGrado.WPF.csproj", "{254A8589-D8DD-4A0D-B3FC-B0284CF46F61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E5D02DF5-7FDA-43C2-B454-D4FA2AB03C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5D02DF5-7FDA-43C2-B454-D4FA2AB03C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5D02DF5-7FDA-43C2-B454-D4FA2AB03C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{254A8589-D8DD-4A0D-B3FC-B0284CF46F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254A8589-D8DD-4A0D-B3FC-B0284CF46F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254A8589-D8DD-4A0D-B3FC-B0284CF46F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254A8589-D8DD-4A0D-B3FC-B0284CF46F61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
