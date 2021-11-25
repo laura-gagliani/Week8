@@ -16,5 +16,30 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblValue" Content="Value:" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontWeight="Normal" FontSize="18" FontFamily="Corbel Light" FontStretch="Normal" Margin="0,0,0,0" Width="93"/>
+        <TextBox x:Name="txtBoxSchermo" Grid.ColumnSpan="3" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" Width="210" Height="44" Background="#FFC3E1EA" FontSize="32" TextAlignment="Right" CharacterCasing="Normal" FontStretch="Normal" FontWeight="ExtraLight" Foreground="#FF5C8064" FontFamily="Consolas"/>
+        <Button x:Name="btnClear" Content="C" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="44" Width="57" FontSize="24" FontWeight="Normal" Background="#FFF19393" Foreground="White" Click="btnClear_Click"/>
+        <Button x:Name="btn7" Content="7" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Click="btn7_Click"/>
+        <Button x:Name="btn8" Content="8" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Column="1" Click="btn8_Click"/>
+        <Button x:Name="btn9" Content="9" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Column="2" Click="btn9_Click"/>
+        <Button x:Name="btn6" Content="6" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Column="2" Click="btn6_Click"/>
+        <Button x:Name="btn5" Content="5" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Column="1" Click="btn5_Click"/>
+        <Button x:Name="btn4" Content="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="3" Click="btn4_Click"/>
+        <Button x:Name="btn3" Content="3" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="4" Grid.Column="2" Click="btn3_Click"/>
+        <Button x:Name="btn2" Content="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="4" Grid.Column="1" Click="btn2_Click"/>
+        <Button x:Name="btn1" Content="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="4" Click="btn1_Click"/>
+        <Button x:Name="btn0" Content="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="6" Grid.Column="1" Click="btn0_Click"/>
+        <Button x:Name="btnVirg" Content="," HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="6" Background="#FFF9F9F9" Click="btnVirg_Click"/>
+        <Button x:Name="btnUgual" Content="=" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="6" Background="#FFF9F9F9" Grid.Column="2" Click="btnUgual_Click"/>
+        <Button x:Name="btnAdd" Content="+" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="6" Background="#FFFBFBBF" Grid.Column="3" Click="btnAdd_Click"/>
+        <Button x:Name="btnSottr" Content="-" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="4" Background="#FFFBFBBF" Grid.Column="3" Click="btnSottr_Click"/>
+        <Button x:Name="btnMolt" Content="*" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="3" Background="#FFFBFBBF" Grid.Column="3" Click="btnMolt_Click"/>
+        <Button x:Name="btnDiv" Content="/" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="57" FontSize="22" Grid.Row="2" Background="#FFFBFBBF" Grid.Column="3" Click="btnDiv_Click"/>
     </Grid>
 </Window>
